@@ -165,7 +165,7 @@ LOAD d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x292e
+.text           0x00000000     0x2964
  *(.vectors)
  .vectors       0x00000000       0x54 d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
                 0x00000000                __vectors
@@ -288,107 +288,107 @@ LOAD d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\
                 0x00000c9e       0x98 ./BUTTON.o
                 0x00000c9e                BUTTON_voidButtonConfig
  .text.BUTTON_voidPolling
-                0x00000d36       0xae ./BUTTON.o
+                0x00000d36       0xe4 ./BUTTON.o
                 0x00000d36                BUTTON_voidPolling
  .text.BUTTON_voidButtonSampler
-                0x00000de4      0x436 ./BUTTON.o
-                0x00000de4                BUTTON_voidButtonSampler
+                0x00000e1a      0x436 ./BUTTON.o
+                0x00000e1a                BUTTON_voidButtonSampler
  .text.DIO_voidSetPinDirection
-                0x0000121a      0x200 ./DIO_Program.o
-                0x0000121a                DIO_voidSetPinDirection
+                0x00001250      0x200 ./DIO_Program.o
+                0x00001250                DIO_voidSetPinDirection
  .text.DIO_voidSetPinValue
-                0x0000141a      0x200 ./DIO_Program.o
-                0x0000141a                DIO_voidSetPinValue
+                0x00001450      0x200 ./DIO_Program.o
+                0x00001450                DIO_voidSetPinValue
  .text.DIO_voidTogglePinValue
-                0x0000161a       0xfa ./DIO_Program.o
-                0x0000161a                DIO_voidTogglePinValue
+                0x00001650       0xfa ./DIO_Program.o
+                0x00001650                DIO_voidTogglePinValue
  .text.DIO_voidSetPortDirection
-                0x00001714       0x82 ./DIO_Program.o
-                0x00001714                DIO_voidSetPortDirection
+                0x0000174a       0x82 ./DIO_Program.o
+                0x0000174a                DIO_voidSetPortDirection
  .text.DIO_voidSetPortValue
-                0x00001796       0x82 ./DIO_Program.o
-                0x00001796                DIO_voidSetPortValue
+                0x000017cc       0x82 ./DIO_Program.o
+                0x000017cc                DIO_voidSetPortValue
  .text.DIO_u8GetPinValue
-                0x00001818       0xf2 ./DIO_Program.o
-                0x00001818                DIO_u8GetPinValue
+                0x0000184e       0xf2 ./DIO_Program.o
+                0x0000184e                DIO_u8GetPinValue
  .text.LCD_voidSendCommand
-                0x0000190a      0x13c ./LCD_Program.o
-                0x0000190a                LCD_voidSendCommand
+                0x00001940      0x13c ./LCD_Program.o
+                0x00001940                LCD_voidSendCommand
  .text.LCD_voidSendData
-                0x00001a46      0x13c ./LCD_Program.o
-                0x00001a46                LCD_voidSendData
+                0x00001a7c      0x13c ./LCD_Program.o
+                0x00001a7c                LCD_voidSendData
  .text.LCD_voidLCDInit
-                0x00001b82      0x3c8 ./LCD_Program.o
-                0x00001b82                LCD_voidLCDInit
+                0x00001bb8      0x3c8 ./LCD_Program.o
+                0x00001bb8                LCD_voidLCDInit
  .text.LCD_voidConfiguration
-                0x00001f4a       0x34 ./LCD_Program.o
-                0x00001f4a                LCD_voidConfiguration
+                0x00001f80       0x34 ./LCD_Program.o
+                0x00001f80                LCD_voidConfiguration
  .text.LCD_voidSendString
-                0x00001f7e       0x52 ./LCD_Program.o
-                0x00001f7e                LCD_voidSendString
+                0x00001fb4       0x52 ./LCD_Program.o
+                0x00001fb4                LCD_voidSendString
  .text.LCD_voidSendNumber
-                0x00001fd0      0x16a ./LCD_Program.o
-                0x00001fd0                LCD_voidSendNumber
+                0x00002006      0x16a ./LCD_Program.o
+                0x00002006                LCD_voidSendNumber
  .text.LCD_voidGoToXY
-                0x0000213a       0x3c ./LCD_Program.o
-                0x0000213a                LCD_voidGoToXY
+                0x00002170       0x3c ./LCD_Program.o
+                0x00002170                LCD_voidGoToXY
  .text.LCD_voidSendSpecialCharacter
-                0x00002176       0x80 ./LCD_Program.o
-                0x00002176                LCD_voidSendSpecialCharacter
+                0x000021ac       0x80 ./LCD_Program.o
+                0x000021ac                LCD_voidSendSpecialCharacter
  .text.LCD_voidClearSymbolAtXY
-                0x000021f6       0x26 ./LCD_Program.o
-                0x000021f6                LCD_voidClearSymbolAtXY
+                0x0000222c       0x26 ./LCD_Program.o
+                0x0000222c                LCD_voidClearSymbolAtXY
  .text.drawArrow
-                0x0000221c       0x2e ./calculator.o
-                0x0000221c                drawArrow
+                0x00002252       0x2e ./calculator.o
+                0x00002252                drawArrow
  .text.cycleNumbers
-                0x0000224a      0x108 ./calculator.o
-                0x0000224a                cycleNumbers
+                0x00002280      0x108 ./calculator.o
+                0x00002280                cycleNumbers
  .text.cycleOperators
-                0x00002352       0x94 ./calculator.o
-                0x00002352                cycleOperators
+                0x00002388       0x94 ./calculator.o
+                0x00002388                cycleOperators
  .text.calculatePrint
-                0x000023e6      0x116 ./calculator.o
-                0x000023e6                calculatePrint
+                0x0000241c      0x116 ./calculator.o
+                0x0000241c                calculatePrint
  .text.Calculator_voidCycleUpCallback
-                0x000024fc       0xc4 ./calculator.o
-                0x000024fc                Calculator_voidCycleUpCallback
+                0x00002532       0xc4 ./calculator.o
+                0x00002532                Calculator_voidCycleUpCallback
  .text.Calculator_voidCycledownCallback
-                0x000025c0       0xc4 ./calculator.o
-                0x000025c0                Calculator_voidCycledownCallback
+                0x000025f6       0xc4 ./calculator.o
+                0x000025f6                Calculator_voidCycledownCallback
  .text.Calculator_voidConfirmCallback
-                0x00002684       0xb4 ./calculator.o
-                0x00002684                Calculator_voidConfirmCallback
+                0x000026ba       0xb4 ./calculator.o
+                0x000026ba                Calculator_voidConfirmCallback
  .text.Calculator_voidConfig
-                0x00002738       0x42 ./calculator.o
-                0x00002738                Calculator_voidConfig
- .text.main     0x0000277a       0x40 ./main.o
-                0x0000277a                main
- .text.libgcc   0x000027ba       0x3e d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
-                0x000027ba                __mulsi3
- .text.libgcc   0x000027f8       0x18 d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
-                0x000027f8                __udivmodqi4
- .text.libgcc   0x00002810       0x1a d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodqi4.o)
-                0x00002810                __divmodqi4
- .text.libgcc   0x0000282a       0x26 d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
-                0x0000282a                __divmodhi4
-                0x0000282a                _div
- .text.libgcc   0x00002850       0x44 d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
-                0x00002850                __udivmodsi4
- .text.libgcc   0x00002894        0x0 d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
- .text.libgcc   0x00002894        0x0 d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
- .text.libgcc   0x00002894        0x0 d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
- .text.libgcc   0x00002894       0x28 d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
-                0x00002894                __udivmodhi4
- .text.libgcc   0x000028bc       0x38 d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
-                0x000028bc                __prologue_saves__
- .text.libgcc   0x000028f4       0x36 d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
-                0x000028f4                __epilogue_restores__
-                0x0000292a                . = ALIGN (0x2)
+                0x0000276e       0x42 ./calculator.o
+                0x0000276e                Calculator_voidConfig
+ .text.main     0x000027b0       0x40 ./main.o
+                0x000027b0                main
+ .text.libgcc   0x000027f0       0x3e d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                0x000027f0                __mulsi3
+ .text.libgcc   0x0000282e       0x18 d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+                0x0000282e                __udivmodqi4
+ .text.libgcc   0x00002846       0x1a d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodqi4.o)
+                0x00002846                __divmodqi4
+ .text.libgcc   0x00002860       0x26 d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+                0x00002860                __divmodhi4
+                0x00002860                _div
+ .text.libgcc   0x00002886       0x44 d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                0x00002886                __udivmodsi4
+ .text.libgcc   0x000028ca        0x0 d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x000028ca        0x0 d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x000028ca        0x0 d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x000028ca       0x28 d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                0x000028ca                __udivmodhi4
+ .text.libgcc   0x000028f2       0x38 d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                0x000028f2                __prologue_saves__
+ .text.libgcc   0x0000292a       0x36 d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                0x0000292a                __epilogue_restores__
+                0x00002960                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x0000292a        0x0 d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
-                0x0000292a                exit
-                0x0000292a                _exit
+ .fini9         0x00002960        0x0 d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x00002960                exit
+                0x00002960                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -407,11 +407,11 @@ LOAD d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000292a        0x4 d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .fini0         0x00002960        0x4 d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x0000292e                _etext = .
+                0x00002964                _etext = .
 
-.data           0x00800060       0x12 load address 0x0000292e
+.data           0x00800060       0x12 load address 0x00002964
                 0x00800060                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800060        0x0 d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
@@ -450,7 +450,7 @@ LOAD d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\
                 0x00800068                BUTTON_FuncList
  *(.rodata)
  *(.rodata*)
- .rodata.C.0.1381
+ .rodata.C.0.1388
                 0x0080006e        0x3 ./BUTTON.o
  *(.gnu.linkonce.d*)
                 0x00800072                . = ALIGN (0x2)
@@ -495,8 +495,8 @@ LOAD d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\
  COMMON         0x00800072        0x5 ./BUTTON.o
                 0x00800072                calculatorData
                 0x00800077                PROVIDE (__bss_end, .)
-                0x0000292e                __data_load_start = LOADADDR (.data)
-                0x00002940                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00002964                __data_load_start = LOADADDR (.data)
+                0x00002976                __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x00800077        0x0
                 0x00800077                PROVIDE (__noinit_start, .)
@@ -521,16 +521,16 @@ LOAD d:/imt work/01-imt sdk/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\
 .signature
  *(.signature*)
 
-.stab           0x00000000     0x1fb0
+.stab           0x00000000     0x1fbc
  *(.stab)
- .stab          0x00000000      0x8a0 ./BUTTON.o
- .stab          0x000008a0      0x4a4 ./DIO_Program.o
+ .stab          0x00000000      0x8ac ./BUTTON.o
+ .stab          0x000008ac      0x4a4 ./DIO_Program.o
                                 0x540 (size before relaxing)
- .stab          0x00000d44      0xa80 ./LCD_Program.o
+ .stab          0x00000d50      0xa80 ./LCD_Program.o
                                 0xca8 (size before relaxing)
- .stab          0x000017c4      0x624 ./calculator.o
+ .stab          0x000017d0      0x624 ./calculator.o
                                 0x87c (size before relaxing)
- .stab          0x00001de8      0x1c8 ./main.o
+ .stab          0x00001df4      0x1c8 ./main.o
                                 0x438 (size before relaxing)
 
 .stabstr        0x00000000      0xf30

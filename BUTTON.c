@@ -52,6 +52,8 @@ void BUTTON_voidPolling(struct BUTTON_OBJ* pButtons)
 					//LCD_voidSendData('A');
 					//OG code
 					BUTTON_FuncList[Local_u8ButtonItterator](&calculatorData);
+
+					pButtons[Local_u8ButtonItterator].oldVal = pButtons[Local_u8ButtonItterator].val;
 				}
 			}
 		}
